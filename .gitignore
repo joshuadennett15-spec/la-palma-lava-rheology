@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+.env
+
+# Third-party DEM tiles from IGN (see README for how to obtain them)
+*.tif
+
+# Generated Mapbox map: the script embeds the access token in this file
+la_palma_methodology_map.html
+
+# Scratch configs written by the PyFLOWGO calibration and search scripts
+pyflowgo/resource/_*.json
+pyflowgo/resource/tmp_*.json
+
+# Editors, tools and OS
+.idea/
+.claude/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+# Core numerics and plotting (PyFLOWGO, SRA Monte Carlo, bootstrap, figures)
+numpy
+scipy
+matplotlib
+pandas
+seaborn
+# Reading the .xlsx field-data workbook (sra/read_excel.py)
+openpyxl
+# DEM maps (make_pub_maps.py, build_mapbox_map.py)
+rasterio
+pyproj
